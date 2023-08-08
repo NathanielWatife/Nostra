@@ -1,0 +1,664 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#section  {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.topHeader {
+    background-color: rgb(10, 10, 45);
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.topCont {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.topCont p {
+    margin-right: 10px;
+}
+
+.topCont a {
+    cursor: pointer;
+    color: white;
+}
+
+/* header */
+header {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-color: black;
+    padding: 10px;
+    height: 35px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.itemMenu {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.listMenu {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.search {
+    position: relative;
+}
+
+.searchInput {
+    width: 200px;
+    height: 35px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(250, 245, 245, 0.839);
+}
+
+.searchInput::placeholder {
+    color: lightgrey;
+}
+
+.icon-search {
+    position: absolute;
+    left: 4%;
+    top: 15%;
+    color: white;
+    cursor: pointer;
+}
+
+.headerIcon {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.icon-shopping-cart {
+    top: 10%;
+    cursor: pointer;
+}
+
+.icon-person_outline {
+margin-left: 10px;
+cursor: pointer;
+}
+
+nav {
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/carousel-1.jpg);
+    background-color: darkgray;
+    opacity: 0.75;
+    width: 97%;
+    height: 450px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+}
+
+
+.navIcon {
+    position: absolute;
+    right: 1%;
+    top: 4%;
+    /* background-color: white; */
+}
+
+.icon-keyboard_arrow_left {
+    padding: 5px;
+    background-color: whitesmoke;
+    color: white;
+    font-size: 25px;
+    margin-right: -2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.icon-keyboard_arrow_right {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navCont {
+    display: flex;
+    /* flex-direction: column; */
+    width: 500px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    justify-content: center;
+    text-align: center;
+}
+
+.navTitle {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+
+
+.navButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.icon-long-arrow-right {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navDots {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+.dotP {
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+/* container */
+.container {
+    padding-top: 10px;
+}
+
+.cont {
+    padding: 10px;
+}
+
+.contTitle {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.conImg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgCont {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100px;
+}
+
+.imgRow {
+    width: 100px;
+    height: 50px;
+}
+
+.middleCont {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.firstCont {
+    padding: 10px;
+}
+
+.firstCont h1 {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(10, 10, 45);
+}
+
+.secondCont {
+    padding-top: 30px;
+    padding-left: 30px;
+    border-left: 3px solid rgb(10, 10, 45);
+}
+
+.secondCont h3 {
+    color: lightgray;
+}
+
+.user {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.userItem {
+    width: 500px;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+.iconTag {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-verified_user,
+.icon-sentiment_very_satisfied,
+.icon-autorenew,
+.icon-local_shipping {
+    padding: 15px 15px;
+    font-size: 30px;
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+.userItem h2 {
+    padding: 20px 0px;
+    color: rgb(10, 10, 45);
+    font-size: 20px;
+}
+
+.userItem p {
+    color: lightgrey;
+}
+
+
+.currate {
+    padding: 20px;
+}
+
+.currateTitle {
+    padding: 10px;
+}
+
+.currateTitle h1 {
+    color: rgb(10, 10, 45);
+    font-weight: 900;
+    font-size: 40em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.currateItem {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.picks1,
+.picks2,
+.picks3,
+.picks4 {
+    position: relative;
+}
+
+.pickImg {
+    width: 300px;
+}
+
+.currateBtn {
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 45);
+    color: lightgrey;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.currateBtn:hover {
+    background-color: lightgray;
+    color: rgb(10, 10, 45);
+    transition: all 0.7s ease-in-out;
+}
+
+.feature {
+    padding: 20px;
+    margin-bottom: -70px;
+}
+
+.productTitle {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 10, 45);
+}
+
+.featureImg  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.productCont {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.prodImg {
+    border-radius: 10px;
+    width: 90%;
+    height: 70%;
+}
+
+.productButton {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2.9px;
+    cursor: pointer;
+}
+
+.productButton:hover {
+    background-color: rgb(10, 10, 45);
+    color: white;
+    transition: all 0.7s ease-in;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.productDetails h6 {
+    font-size: 15px;
+    color: rgb(10, 10, 45);
+}
+
+.productDesc {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.productPrice {
+    font-size: 25px;
+    margin-right: 5px;
+    color: rgb(10, 10, 45);
+    font-weight: 900;
+}
+
+.productPrice2 {
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-right: 5px;
+    color: rgb(10, 10, 45);
+    font-weight: 900;
+}
+
+
+.icon-cart-plus {
+    position: absolute;
+    right: 10%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 45);
+    font-size: 25px;
+    /* margin-right: 5px; */
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.icon-cart-plus:hover {
+    background-color: lightgray;
+    color: rgb(10, 10, 45);
+    transition: all 0.7s ease-in;
+}
+
+.line {
+    padding: 10px;
+    padding-left: 350px;
+    justify-self: center;
+    text-align: center;
+    display: flex;
+}
+
+.lineDiv {
+    width: 300px;
+    height: 10px;
+    margin-top: 3px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: rgb(10, 10, 45);
+}
+
+.second1 {
+    background-color: lightgray;
+    width: 400px;
+    height: 15px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.newsLetter {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsCont {
+    padding-top: 20px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.newsImg {
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+    /* height: 50%; */
+}
+
+.newsSide {
+    background-color: rgba(12, 12, 27, 0.975);
+    border-radius: 0px 10px 10px 0px;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 40px;
+    color: white;
+}
+
+.newsSide h6 {
+    padding-left: 10px;
+}
+
+.newsSide h1  {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.newsBtn {
+    border: none;
+    background-color: white;
+    color: rgba(12, 12, 27, 0.975);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 17px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.newsBtn:hover {
+    background-color: lightgrey;
+    color: white;
+    transition: all 0.7s ease-in;
+}
+
+.newsDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.newsDesc h1 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(12, 12, 27, 0.975);
+}
+
+.newsDesc h4 {
+    color: lightgray;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    position: relative;
+}
+
+.newsInput {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
+}
+
+.icon-envelope-o {
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    font-size: 30px;
+}
+
+.fBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(12, 12, 27, 0.975);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fBtn:hover {
+    color: rgba(12, 12, 27, 0.975);
+    background-color: lightgrey;
+    transition: all 0.7s ease-in;
+}
+
+.descTag {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descTag h5 {
+    color: lightgrey;
+}
+
+.newsSpan {
+    color: rgba(12, 12, 27, 0.975);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    margin-top: 40px;
+    background-color: whitesmoke;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerCont {
+    display: flex;
+    padding: 20px;
+}
+
+.fSide {
+    padding: 10px;
+}
+
+.fSide h1 {
+    padding: 10px;
+}
+
+.fSide h5 {
+    color: lightgrey;
+}
+
+.mSide {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.side h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.side p {
+    color: lightgrey;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.side {
+    padding: 10px;
+}
+
+.payment {
+    padding: 10px;
+}
+
+.payImg {
+    padding: 15px;
+}
